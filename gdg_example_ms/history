@@ -1,0 +1,1000 @@
+ 1118  git status
+ 1119  git add templates/web/join.html templates/web/new_route.html templates/web/pickup.html 
+ 1120  git commit -m "new_route, join, pickup: country restriction to Norway"
+ 1121  cd templates/web/
+ 1122  rm .index.html.swp 
+ 1123  cd ../..
+ 1124  appcfg.py -A penguinupdev1 -V app update .
+ 1125  vim templates/web/update_profile.html 
+ 1126  git status
+ 1127  git rm templates/web/.index.html.swp 
+ 1128  appcfg.py -A penguinupdev1 -V app update .
+ 1129  exit
+ 1130  cd PenguinUpWebDev/PenguinGAE/
+ 1131  source bin/activate
+ 1132  cd PenguinGAE-app-28-07-2018/
+ 1133  vim locale/no/LC_MESSAGES/django.po 
+ 1134  cd ..
+ 1135  grep -irn 'ledige' * 
+ 1136  cd PenguinGAE-app-28-07-2018/
+ 1137  ls
+ 1138  vim templates/web/index.html 
+ 1139  vim ~/Downloads/tour.html
+ 1140  gedit ~/Downloads/tour.html & 
+ 1141  cd ~/Downloads/
+ 1142  pwd
+ 1143  exit
+ 1144  cd PenguinUpWebDev/PenguinGAE/
+ 1145  source bin/activate
+ 1146  ls
+ 1147  cd PenguinGAE-front-04-8-2018/
+ 1148  history > history_as 
+ 1149  vim history_as 
+ 1150  appcfg.py -A penguinupdev1 update .
+ 1151  vim app.yaml 
+ 1152  ls
+ 1153  vim change_url_cmds.sh 
+ 1154  cd templates/
+ 1155  cd web/
+ 1156  grep -rl "front.penguinup.com" . | xargs sed -i 's/front.penguinup.com/app.penguinup.com/g'
+ 1157  vim index.html 
+ 1158  cd ../..
+ 1159  vim PengvinBackEnd/urls.py
+ 1160  ls
+ 1161  vim Pengvin/views.py
+ 1162  vim templates/web/base_logged_in.html 
+ 1163  appcfg.py -A penguinupdev1 update .
+ 1164  appcfg.py - rollback .
+ 1165  appcfg.py -A penguinupdev1 update .
+ 1166  appcfg.py -A penguinupdev1 rollback .
+ 1167  appcfg.py -A penguinupdev1 update .
+ 1168  vim templates/web/new_route.html 
+ 1169  vim PengvinAPI/views.py
+ 1170  vim PengvinAPI/urls.py
+ 1171  vim PengvinAPI/views.py
+ 1172  cd templates/web/
+ 1173  grep -in "Token "
+ 1174  grep -in "Token " * 
+ 1175  grep -n "Token " * 
+ 1176  grep "Token " * 
+ 1177  cd ../..
+ 1178  cd ..
+ 1179  grep -rn "Token " * 
+ 1180  cd PenguinGAE-front-04-8-2018/
+ 1181  vim PengvinAPI/views.py
+ 1182  vim Pengvin/views.py
+ 1183  appcfg.py -A penguinupdev1 update .
+ 1184  appcfg.py -A penguinupdev1 rollback .
+ 1185  appcfg.py -A penguinupdev1 update .
+ 1186  vim Pengvin/views.py
+ 1187  vim Pengvin/urls.py
+ 1188  appcfg.py -A penguinupdev1 update .
+ 1189  ls
+ 1190  ls Pengvin
+ 1191  vim Pengvin/admin.py
+ 1192  vim Pengvin/urls.py
+ 1193  rm -rf PengvinAPI/
+ 1194  appcfg.py -A penguinupdev1 update .
+ 1195  vim PengvinBackEnd/settings.py
+ 1196  grep -rn "PengvinAPI" * 
+ 1197  ls
+ 1198  rm -rf payment/
+ 1199  ls
+ 1200  vim PengvinBackEnd/settings.py
+ 1201  appcfg.py -A penguinupdev1 update .
+ 1202  ls
+ 1203  vim Pengvin/views.py
+ 1204  rm -rf pengvinalg2/
+ 1205  ls
+ 1206  vim PengvinBackEnd/settings_secret.py
+ 1207  appcfg.py -A penguinupdev1 update .
+ 1208  vim PengvinBackEnd/settings.py
+ 1209  vim PengvinBackEnd/urls.py
+ 1210  vim Pengvin/urls.py
+ 1211  vim Pengvin/views.py
+ 1212  vim templates/web/new_route.html 
+ 1213  appcfg.py -A penguinupdev1 update .
+ 1214  vim PengvinBackEnd/settings.py
+ 1215  vim PengvinBackEnd/settings_secret.py
+ 1216  appcfg.py -A penguinupdev1 update .
+ 1217  vim Pengvin/views.py
+ 1218  vim PengvinBackEnd/settings.py
+ 1219  vim PengvinBackEnd/settings_secret.py
+ 1220  vim history_as 
+ 1221  mysql -h 173.194.236.16 -u test -p
+ 1222  vim history_as 
+ 1223  vim PengvinBackEnd/settings_secret.py
+ 1224  dev_appserver.py app.yaml 
+ 1225  vim Pengvin/views.py
+ 1226  mysql -h 173.194.236.16 -u test -p
+ 1227  vim Pengvin/views.py
+ 1228  appcfg.py -A penguinupdev1 update .
+ 1229  vim Pengvin/views.py
+ 1230  appcfg.py -A penguinupdev1 update .
+ 1231  vim Pengvin/views.py
+ 1232  vim PengvinBackEnd/settings.py
+ 1233  cd PengvinBackEnd/
+ 1234  ls
+ 1235  vim settings_carpool.py 
+ 1236  rm settings_carpool.py settings.pyc settings_secret.pyc 
+ 1237  ls
+ 1238  vim settings_secret.py 
+ 1239  cd ..
+ 1240  ls
+ 1241  -rf rm sweden* 
+ 1242  ls
+ 1243  rm -rf sweden* 
+ 1244  ls
+ 1245  rm test_msg* 
+ 1246  rm diff_* 
+ 1247  ls
+ 1248  rm outp* 
+ 1249  ls
+ 1250  ls outsource/
+ 1251  ls outsource/frontend/
+ 1252  ls outsource/frontend/frontend1/
+ 1253  rm -rf outsource/
+ 1254  ls
+ 1255  rm url_* 
+ 1256  ls
+ 1257  vim app.yaml 
+ 1258  vim Pengvin/views.py
+ 1259  vim PengvinBackEnd/settings.py 
+ 1260  cd templates/web/
+ 1261  ls
+ 1262  rm index_* 
+ 1263  ls
+ 1264  rm index2.html join_working* 
+ 1265  ls
+ 1266  rm base_anonym_working.html diff_* group_index_working* new_route_working* pickup_working.html process_working.html request-taxi2_working.html route-info_working.html update_profile_working.html working_phone_verify.html 
+ 1267  ls
+ 1268  rm bug_new_route.html 
+ 1269  vim new_route.html 
+ 1270  grep -rn "POST" *.html
+ 1271  vim new_route.html 
+ 1272  vim pickup.html 
+ 1273  cp new_route.html new_route_token.html 
+ 1274  cd ../..
+ 1275  cd ..
+ 1276  cp -R PenguinGAE-front-04-8-2018/ PenguinGAE-front-11-8-2018/
+ 1277  cd PenguinGAE-front-11-8-2018/
+ 1278  cd templates/web/
+ 1279  cp ../../../PenguinGAE-app-28-07-2018/templates/web/*.html .
+ 1280  diff new_route.html ../../../PenguinGAE-front-04-8-2018/templates/web/new_route.html 
+ 1281  history > history_11_08_2018
+ 1282  vim history_11_08_2018 
+ 1283  source history_11_08_2018 
+ 1284  vim history_11_08_2018 
+ 1285  source history_11_08_2018 
+ 1286  ls
+ 1287  vim new_route.html 
+ 1288  vim pickup.html 
+ 1289  cd ../..
+ 1290  ls
+ 1291  cd templates/web/
+ 1292  vim update_profile.html 
+ 1293  cd ../..
+ 1294  appcfg.py -A penguinupdev1 update .
+ 1295  vim Pengvin/urls.py
+ 1296  cd templates/web/
+ 1297  vim index.html 
+ 1298  vim update_profile.html 
+ 1299  vim join.html 
+ 1300  vim index.html 
+ 1301  ls 
+ 1302  vim jqSearch 
+ 1303  rm jqSearch 
+ 1304  cd ../..
+ 1305  cp ../PenguinGAE-app-28-07-2018/locale/no/LC_MESSAGES/django.* locale/no/LC_MESSAGES/
+ 1306  appcfg.py -A penguinupdev1 update .
+ 1307  vim templates/web/update_profile.html 
+ 1308  appcfg.py -A penguinupdev1 update .
+ 1309  pip freeze > requirements2.txt 
+ 1310  diff requirements.txt requirements2.txt 
+ 1311  rm requirements2.txt 
+ 1312  ls
+ 1313  ls httplib2/
+ 1314  cd templates/web/
+ 1315  grep -in "POST " *.html
+ 1316  grep -in "POST" *.html
+ 1317  vim test_whim.html 
+ 1318  vim ../../Pengvin/views.py 
+ 1319  rm test_whim.html request-taxi2.html request-taxi.html 
+ 1320  grep -in "POST" *.html
+ 1321  grep -n "POST" *.html
+ 1322  rm new_route_token.html 
+ 1323  vim new_route.html 
+ 1324  vim phone_verify_global.html 
+ 1325  vim ../../../PenguinGAE-app-28-07-2018/PengvinAPI/urls.py
+ 1326  vim ../../../PenguinGAE-app-28-07-2018/PengvinAPI/views.py
+ 1327  cd ../../..
+ 1328  cd PenguinGAE-app-28-07-2018/
+ 1329  ls
+ 1330  git status
+ 1331  cd templates/web/
+ 1332  git add update_profile.html join.html new_route.html route-info.html index.html 
+ 1333  cd ../../locale/
+ 1334  cd no/LC_MESSAGES/
+ 1335  git add django.po django.mo 
+ 1336  cd ../../en/LC_MESSAGES/
+ 1337  ls -al
+ 1338  git add django.* 
+ 1339  cd ../..
+ 1340  cd ..
+ 1341  git status
+ 1342  git --help
+ 1343  git checkout --help
+ 1344  git status
+ 1345  git commit -m "Language changes - 04-09 August"
+ 1346  git status
+ 1347  git checkout -- lib/django/conf/locale/en/LC_MESSAGES/django.po
+ 1348  git status
+ 1349  git diff lib/django/conf/locale/en/LC_MESSAGES/django.po
+ 1350  git diff lib/django/contrib/admin/locale/no/LC_MESSAGES/django.po
+ 1351  git checkout -- lib/django/contrib/admin/locale/no/LC_MESSAGES/django.po
+ 1352  git diff lib/django/contrib/admin/locale/no/LC_MESSAGES/django.po
+ 1353  git status
+ 1354  ls
+ 1355  cd PengvinAPI/
+ 1356  vim urls.py
+ 1357  vim views.py
+ 1358  vim ../Pengvin/views.py
+ 1359  appcfg.py -A penguinupdev1 update .
+ 1360  cd ..
+ 1361  appcfg.py -A penguinupdev1 update .
+ 1362  cd ../PenguinGAE-front-11-8-2018/
+ 1363  vim Pengvin/views.py 
+ 1364  appcfg.py -A penguinupdev1 update .
+ 1365  ls
+ 1366  git status
+ 1367  ls
+ 1368  ls -al
+ 1369  git log
+ 1370  git status
+ 1371  rm -rf .git
+ 1372  git status
+ 1373  ls
+ 1374  vim PengvinBackEnd/settings.py 
+ 1375  git init 
+ 1376  git status
+ 1377  vim .gitignore 
+ 1378  vim PengvinBackEnd/settings_secret.py 
+ 1379  mysql -h 173.194.236.16 -u test -p
+ 1380  mysql -h 173.194.236.16 -u root -p
+ 1381  vim PengvinBackEnd/settings_secret.py 
+ 1382  git status
+ 1383  vim .gitignore 
+ 1384  git status
+ 1385  vim appengine_config.py
+ 1386  git add . 
+ 1387  git status 
+ 1388  git status
+ 1389  vim app.yaml 
+ 1390  git status
+ 1391  cd ../
+ 1392  cp -R PenguinGAE-front-11-8-2018/ PenguinGAE-dev-11-8-2018
+ 1393  cd PenguinGAE-dev-11-8-2018/
+ 1394  vim app.yaml 
+ 1395  ls
+ 1396  vim change_url_cmds.sh 
+ 1397  source change_url_cmds.sh 
+ 1398  vim change_url_cmds.sh 
+ 1399  vim PengvinBackEnd/settings.py 
+ 1400  vim change_url_cmds.sh 
+ 1401  cd templates/web/
+ 1402  vim base_logged_in.html 
+ 1403  cd ../..
+ 1404  vim change_url_cmds.sh 
+ 1405  ls
+ 1406  rm url_front.penguinup_Pengvin* 
+ 1407  ls
+ 1408  git status
+ 1409  git add Pengvin/views.py PengvinBackEnd/settings.py app.yaml change_url_cmds.sh 
+ 1410  vim templates/url_front.penguinup_Pengvin 
+ 1411  rm templates/url_front.penguinup_Pengvin 
+ 1412  ls
+ 1413  git status
+ 1414  git commit -m "Frontend code: using app.penguinup.com backend; microservice 0.1"
+ 1415  git remote add origin https://github.com/vaibhavbhutoria/penguinup-frontend.git
+ 1416  git push -u origin master
+ 1417  vim ~/.bashrc 
+ 1418  appcfg.py -A penguinupdev1 update .
+ 1419  dev_appserver.py app.yaml 
+ 1420  cd ../PenguinGAE-app-28-07-2018/
+ 1421  dev_appserver.py app.yaml 
+ 1422  exit
+ 1423  vim PengvinBackEnd/settings.py
+ 1424  mysql -h 173.194.236.16 -u test -p
+ 1425  exit
+ 1426  cd ../PenguinGAE-front-11-8-2018/
+ 1427  ls
+ 1428  rm history_as place_autocomplete_form.html 
+ 1429  vim PengvinBackEnd/settings.py 
+ 1430  vim Pengvin/views.py
+ 1431  vim templates/web/update_profile.html 
+ 1432  vim ../PenguinGAE-app-28-07-2018/PengvinAPI/urls.py
+ 1433  vim ../PenguinGAE-app-28-07-2018/PengvinAPI/views.py
+ 1434  ls
+ 1435  cd Pengvin
+ 1436  grep -irn "twilio"
+ 1437  cd ../PengvinBackEnd/
+ 1438  grep -irn "twilio"
+ 1439  cd ../templates/
+ 1440  grep -irn "twilio"
+ 1441  cd ..
+ 1442  vim PengvinBackEnd/settings.py 
+ 1443  rm -rf twilio/
+ 1444  ls
+ 1445  cd templates/web/
+ 1446  grep -irn 'route-details' *.html
+ 1447  vim route-info.html 
+ 1448  grep -irn 'find-guest' *.html
+ 1449  ls
+ 1450  cd ..
+ 1451  ls
+ 1452  rm url_* 
+ 1453  ls photos/
+ 1454  ls registration/
+ 1455  cd ../Pengvin
+ 1456  vim admin.py
+ 1457  ls
+ 1458  rm orig_url_orges.py views_* new_views.py diff_views_31_12_2016 
+ 1459  ls
+ 1460  rm *.pyc
+ 1461  ls
+ 1462  vim utils.py 
+ 1463  vim tests.py 
+ 1464  vim __init__.py 
+ 1465  vim models.py 
+ 1466  cd ..
+ 1467  ls
+ 1468  ls cloudstorage/
+ 1469  ls env/
+ 1470  exit
+ 1471  cd PenguinUpWebDev/PenguinGAE/
+ 1472  source bin/activate
+ 1473  cd PenguinGAE-dev-11-8-2018/
+ 1474  ls -ltr
+ 1475  cd ..
+ 1476  ls -ltr
+ 1477  history > history
+ 1478  vim history 
+ 1479  cd PenguinGAE-front-
+ 1480  cd PenguinGAE-front-11-8-2018/
+ 1481  ls -ltr
+ 1482  dev_appserver.py 
+ 1483  dev_appserver.py app.yaml 
+ 1484  cd ../PenguinGAE-app-28-07-2018/
+ 1485  dev_appserver.py app.yaml 
+ 1486  cd ../PenguinGAE-front-11-8-2018/
+ 1487  dev_appserver.py app.yaml 
+ 1488  cd ../PenguinGAE-app-28-07-2018/
+ 1489  dev_appserver.py app.yaml 
+ 1490  cd ../PenguinGAE-front-11-8-2018/
+ 1491  dev_appserver.py app.yaml 
+ 1492  ls
+ 1493  cd ../PenguinGAE-front-11-8-2018/
+ 1494  ls
+ 1495  vim serviceworker.js 
+ 1496  vim PengvinBackEnd/settings.py
+ 1497  vim ../PenguinGAE-app-28-07-2018/PengvinBackEnd/settings.py
+ 1498  vim ../PenguinGAE-app-28-07-2018/PengvinBackEnd/urls.py
+ 1499  diff ../PenguinGAE-app-28-07-2018/PengvinBackEnd/settings.py PengvinBackEnd/settings.py
+ 1500  vim ../PenguinGAE-app-28-07-2018/PengvinAPI/urls.py
+ 1501  vim ../PenguinGAE-app-28-07-2018/PengvinBackEnd/settings.py
+ 1502  ls templates/web/
+ 1503  ls ../PenguinGAE-app-28-07-2018/templates/web/
+ 1504  vim Pengvin/urls.py
+ 1505  vim ../PenguinGAE-app-28-07-2018/Pengvin/urls.py
+ 1506  vim Pengvin/urls.py
+ 1507  vim ../PenguinGAE-app-28-07-2018/Pengvin/urls.py
+ 1508  vim Pengvin/urls.py
+ 1509  vim templates/web/login.html 
+ 1510  ls ../PenguinGAE-app-28-07-2018/
+ 1511  cd ../PenguinGAE-app-28-07-2018/
+ 1512  find . -name "manifest.json"
+ 1513  cd ../PenguinGAE-front-11-8-2018/
+ 1514  find . -name "manifest.json"
+ 1515  ls 
+ 1516  vim app.yaml 
+ 1517  ls ..
+ 1518  exit
+ 1519  mysql -u root
+ 1520  exit
+ 1521  cd ..
+ 1522  mysql 
+ 1523  mysql -u root -p
+ 1524  sudo rm -rf /var/lib/mysql/mysql
+ 1525  cd /var/lib/mysql
+ 1526  sudo cd /var/lib/mysql
+ 1527  ls /var/lib/mysql
+ 1528  sudo ls /var/lib/mysql
+ 1529  sudo ls -al /var/lib/mysql
+ 1530  sudo rm -rf /var/lib/mysql/*
+ 1531  sudo ls -al /var/lib/mysql
+ 1532  sudo su -
+ 1533  sudo apt-get remove --purge mysql-server mysql-client mysql-common
+ 1534  sudo apt-get autoremove
+ 1535  sudo apt-get autoclean
+ 1536  sudo apt-get install mysql-server
+ 1537  systemctl status mysql.service
+ 1538  journalctl -xe
+ 1539  ls /var/lib/mysql
+ 1540  sudo ls /var/lib/mysql
+ 1541  sudo ls /etc/mysql/
+ 1542  sudo i
+ 1543  sudo -i
+ 1544  top -H
+ 1545  ps -Af | grep chrome
+ 1546  killall chrome 
+ 1547  ps -Af | grep chrome
+ 1548  top -H
+ 1549  ps -Af | grep chrome
+ 1550  exit
+ 1551  cd PenguinUpWebDev/
+ 1552  cd PenguinGAE/
+ 1553  ls
+ 1554  mkdir git_test
+ 1555  cd git_test/
+ 1556  ls -al
+ 1557  git init
+ 1558  touch hello.txt
+ 1559  git status
+ 1560  git add hello.txt 
+ 1561  git commit -m "First commit"
+ 1562  git status
+ 1563  git branch vb
+ 1564  git branch
+ 1565  git checkout vb
+ 1566  vim hello.txt 
+ 1567  git status
+ 1568  git checkout master
+ 1569  git status
+ 1570  git branch
+ 1571  vim hello.txt 
+ 1572  git checkout vb
+ 1573  vim hello.txt 
+ 1574  git status
+ 1575  git add hello.txt 
+ 1576  git status
+ 1577  git commit -m "Added greetings to hello.txt"
+ 1578  git status
+ 1579  vim hello.txt 
+ 1580  git checkout master
+ 1581  git status
+ 1582  git log
+ 1583  vim hello.txt 
+ 1584  git checkout vb
+ 1585  git status
+ 1586  ls -al
+ 1587  vim .git/index 
+ 1588  cd ..
+ 1589  rm -rf git_test/
+ 1590  source bin/activate
+ 1591  vim PenguinGAE-app-28-07-2018/Pengvin/views.py
+ 1592  vim PenguinGAE-app-28-07-2018/Pengvin/urls.py
+ 1593  vim PenguinGAE-app-28-07-2018/PengvinAPI/urls.py
+ 1594  vim PenguinGAE-app-28-07-2018/PengvinAPI/views.py
+ 1595  cd PenguinGAE-app-28-07-2018/
+ 1596  ls lib/
+ 1597  vim lib/rest_framework/status.py
+ 1598  vim PengvinAPI/views.py
+ 1599  vim lib/rest_framework/status.py
+ 1600  vim Pengvin/views.py
+ 1601  exit
+ 1602  top -H
+ 1603  exit
+ 1604  mysql
+ 1605  sudo ls /var/lib/mysql-files/
+ 1606  sudo ls /var/lib/mysql-keyring/
+ 1607  sudo ls -al /var/lib/mysql-keyring/
+ 1608  sudo ls -al /var/lib/mysql-files/
+ 1609  sudo apt-get install mysql-server
+ 1610  sudo ln -s /var/run/mysqld/mysqld.sock /tmp/mysql.sock
+ 1611  systemctl status mysql
+ 1612  mysql -u root -p
+ 1613  sudo apt-get install libmysqlclient-dev 
+ 1614  sudo apt-get install python-mysqldb
+ 1615  cd PenguinUpWebDev/PenguinGAE/
+ 1616  ls
+ 1617  cd PenguinGAE-dev-11-8-2018/
+ 1618  ls -al
+ 1619  git status
+ 1620  git branch -a
+ 1621  cd ../PenguinGAE-app-28-07-2018/
+ 1622  git status
+ 1623  vim .gitignore 
+ 1624  vim change_url_cmds.sh 
+ 1625  rm -rf diff_style_3 sweden_3/ templates/url_se_penguinup_Pengvin url_se_penguinup_Pengvin* 
+ 1626  ls
+ 1627  git status
+ 1628  vim table_href_url.html 
+ 1629  git add change_url_cmds.sh 
+ 1630  git status
+ 1631  git add .
+ 1632  git commit -m "First commit"
+ 1633  git status
+ 1634  git log
+ 1635  vim templates/web/update_profile.html 
+ 1636  vim templates/web/phone_verify_global.html 
+ 1637  vim PengvinAPI/views.py
+ 1638  vim templates/web/phone_verify_global.html 
+ 1639  appcfg.py -A penguinupdev1 update . 
+ 1640  vim PengvinAPI/views.py
+ 1641  appcfg.py -A penguinupdev1 update . 
+ 1642  vim templates/web/update_profile.html 
+ 1643  cd ../PenguinGAE-dev-11-8-2018/
+ 1644  git status
+ 1645  git diff PengvinBackEnd/settings_secret.py
+ 1646  git stash
+ 1647  git status
+ 1648  git branch -vv
+ 1649  git branch dev
+ 1650  git branch
+ 1651  git checkout dev
+ 1652  cd ../PenguinGAE-app-28-07-2018/
+ 1653  vim PengvinAPI/views.py
+ 1654  appcfg.py -A penguinupdev1 update . 
+ 1655  vim templates/web/register.html 
+ 1656  vim PengvinAPI/urls.py
+ 1657  vim templates/web/register.html 
+ 1658  vim Pengvin/urls.py
+ 1659  vim PengvinBackEnd/urls.py
+ 1660  vim Pengvin/views.py
+ 1661  vim templates/web/update_profile.html 
+ 1662  vim PengvinAPI/urls.py
+ 1663  vim Pengvin/urls.py
+ 1664  vim Pengvin/views.py
+ 1665  cd PenguinUpWebDev/
+ 1666  cd PenguinGAE/
+ 1667  source bin/activate
+ 1668  cd PenguinGAE-dev-11-8-2018/
+ 1669  vim Pengvin/views.py
+ 1670  git status
+ 1671  vim templates/web/update_profile.html 
+ 1672  git status
+ 1673  git add Pengvin/views.py templates/web/update_profile.html 
+ 1674  git commit -m "views.py: fixed error message text; update_profile.html: fixed error message location."
+ 1675  git status
+ 1676  git pull origin dev
+ 1677  appcfg.py -A penguinupdev1 update . 
+ 1678  vim Pengvin/views.py
+ 1679  vim templates/web/update_profile.html 
+ 1680  vim PengvinBackEnd/settings.py
+ 1681  git status
+ 1682  vim templates/web/login.html 
+ 1683  git status
+ 1684  vim PengvinBackEnd/settings.py
+ 1685  cd locale/no/
+ 1686  ls
+ 1687  cd LC_MESSAGES/
+ 1688  ls -l
+ 1689  vim django.po 
+ 1690  vim django.mo 
+ 1691  cp django.po orig_django.po 
+ 1692  cd ../../..
+ 1693  python manage.py makemessages -a -i lib -i httplib2
+ 1694  vim templates/web/join.html 
+ 1695  vim templates/web/new_route.html 
+ 1696  vim templates/web/join.html 
+ 1697  python manage.py makemessages -a -i lib -i httplib2
+ 1698  vim locale/no/LC_MESSAGES/django.po 
+ 1699  python manage.py compilemessages
+ 1700  vim PengvinBackEnd/settings.py
+ 1701  appcfg.py -A penguinupdev1 update . 
+ 1702  vim locale/no/LC_MESSAGES/django.po 
+ 1703  cd locale/no/LC_MESSAGES/
+ 1704  ls -ltr
+ 1705  rm orig_django.mo 
+ 1706  cd ../..
+ 1707  cd ../
+ 1708  vim PengvinBackEnd/settings.py
+ 1709  vim templates/web/login.html 
+ 1710  vim PengvinBackEnd/settings.py
+ 1711  vim templates/web/update_profile.html 
+ 1712  vim templates/web/js/validateCar.js 
+ 1713  vim templates/web/login.html 
+ 1714  vim PengvinBackEnd/settings.py
+ 1715  python manage.py makemessages -a -i lib -i httplib2
+ 1716  vim locale/no/LC_MESSAGES/django.po 
+ 1717  python manage.py compilemessages
+ 1718  cd locale/no/LC_MESSAGES/
+ 1719  rm django.* 
+ 1720  ls
+ 1721  vim orig_django.mo 
+ 1722  rm orig_django.mo 
+ 1723  cd ../..
+ 1724  cd ..
+ 1725  cd locale/no/LC_MESSAGES/
+ 1726  cp orig_django.po django.po 
+ 1727  cd ../../..
+ 1728  python manage.py makemessages -a -i lib -i httplib2
+ 1729  vim locale/no/LC_MESSAGES/django.po 
+ 1730  vim templates/web/login.html 
+ 1731  python manage.py makemessages -a -i lib -i httplib2
+ 1732  vim templates/web/login.html 
+ 1733  vim locale/no/LC_MESSAGES/django.po 
+ 1734  python manage.py compilemessages
+ 1735  vim PengvinBackEnd/settings.py
+ 1736  appcfg.py -A penguinupdev1 update . 
+ 1737  git status
+ 1738  git diff templates/web/join.html
+ 1739  vim templates/web/update_profile.html 
+ 1740  appcfg.py -A penguinupdev1 update . 
+ 1741  vim templates/web/update_profile.html 
+ 1742  appcfg.py -A penguinupdev1 update . 
+ 1743  vim templates/web/update_profile.html 
+ 1744  mysql -h 173.194.236.16 -u test 
+ 1745  mysql -h 173.194.236.16 -u test -p
+ 1746  vim templates/web/update_profile.html 
+ 1747  vim PengvinBackEnd/settings.py
+ 1748  appcfg.py -A penguinupdev1 update . 
+ 1749  vim PengvinBackEnd/settings.py
+ 1750  appcfg.py -A penguinupdev1 update . 
+ 1751  vim templates/web/new_route.html 
+ 1752  vim templates/web/route-info.html 
+ 1753  grep -irn "#order" templates/web/
+ 1754  vim templates/web/process.html 
+ 1755  vim templates/web/stripe/payment_details2.html 
+ 1756  grep -irn "id=""order" templates/web/
+ 1757  grep -irn 'id="order"' templates/web/
+ 1758  git status
+ 1759  git diff Pengvin/views.py
+ 1760  vim templates/web/update_profile.html 
+ 1761  vim Pengvin/views.py
+ 1762  git status
+ 1763  git diff templates/web/join.html
+ 1764  git add templates/web/join.html 
+ 1765  git diff templates/web/pickup.html
+ 1766  git diff templates/web/new_route.html
+ 1767  git status
+ 1768  git diff templates/web/update_profile.html
+ 1769  git status
+ 1770  cd templates/web/
+ 1771  git diff new_route.html
+ 1772  git add new_route.html 
+ 1773  git status
+ 1774  git add login.html 
+ 1775  cd ../../locale/no/LC_MESSAGES/
+ 1776  git add django.* 
+ 1777  cd ../..
+ 1778  cd ..
+ 1779  git status
+ 1780  git commit -m "login.html: Added translation tags; join.html, new_route.html: removed empty translation tags; django.mo/po: Updated translation text"
+ 1781  vim locale/no/LC_MESSAGES/django.po 
+ 1782  git status
+ 1783  vim locale/no/LC_MESSAGES/django.po 
+ 1784  git status
+ 1785  vim PengvinBackEnd/settings.py
+ 1786  python manage.py compilemessages manage.py makemessages
+ 1787  python manage.py makemessages -a -i lib -i httplib2
+ 1788  vim locale/no/LC_MESSAGES/django.po 
+ 1789  vim templates/web/past_rides.html 
+ 1790  python manage.py makemessages -a -i lib -i httplib2
+ 1791  vim locale/no/LC_MESSAGES/django.po 
+ 1792  git status
+ 1793  vim PengvinBackEnd/settings.py
+ 1794  python manage.py compilemessages
+ 1795  git status
+ 1796  vim PengvinBackEnd/settings.py
+ 1797  git status
+ 1798  appcfg.py -A penguinupdev1 update . 
+ 1799  git status
+ 1800  git diff templates/web/past_rides.html
+ 1801  git add templates/web/past_rides.html 
+ 1802  git diff Pengvin/views.py
+ 1803  git status
+ 1804  git add locale/no/LC_MESSAGES/django.* 
+ 1805  git status
+ 1806  git commit -m "Small language changes"
+ 1807  git add templates/web/update_profile.html templates/web/js/validateCar.js 
+ 1808  git status
+ 1809  git commit -m "validateCar.js: Fixed requirement of no of seats violationn <=0;"
+ 1810  git status
+ 1811  git diff locale/en/LC_MESSAGES/django.po
+ 1812  git status
+ 1813  git add locale/en/LC_MESSAGES/django.* 
+ 1814  git status
+ 1815  git diff Pengvin/views.py
+ 1816  git add Pengvin/views.py 
+ 1817  git commit -m "views.py: Update message for Language updated"
+ 1818  git status
+ 1819  git pull origin dev
+ 1820  git status
+ 1821  git pull origin dev
+ 1822  vim templates/web/update_profile.html 
+ 1823  vim templates/web/new_route.html 
+ 1824  git status
+ 1825  git diff templates/web/new_route.html
+ 1826  git diff templates/web/update_profile.html
+ 1827  git status
+ 1828  git add templates/web/new_route.html 
+ 1829  git add templates/web/update_profile.html 
+ 1830  git status
+ 1831  git commit -m "Resolved merge conflicts"
+ 1832  appcfg.py -A penguinupdev1 update . 
+ 1833  vim requirements.txt 
+ 1834  vim templates/web/login.html 
+ 1835  vim templates/registration/password_reset_form.html 
+ 1836  vim templates/web/login.html 
+ 1837  ls
+ 1838  cd templates/
+ 1839  ls
+ 1840  ls pages/
+ 1841  ls img/
+ 1842  ls img/invoice/
+ 1843  cd ..
+ 1844  ls
+ 1845  cd templates/
+ 1846  ls
+ 1847  cd web/
+ 1848  ls
+ 1849  ls assets/
+ 1850  ls css/
+ 1851  ls img/
+ 1852  vim index.html 
+ 1853  cd ../..
+ 1854  git status
+ 1855  git diff templates/web/index.html
+ 1856  vim templates/web/index.html 
+ 1857  git diff templates/web/index.html
+ 1858  git status
+ 1859  appcfg.py -A penguinupdev1 update . 
+ 1860  vim templates/web/index.html 
+ 1861  appcfg.py -A penguinupdev1 update . 
+ 1862  vim templates/web/index.html 
+ 1863  appcfg.py -A penguinupdev1 update . 
+ 1864  vim templates/web/index.html 
+ 1865  git status
+ 1866  vim templates/web/index.html 
+ 1867  appcfg.py -A penguinupdev1 update . 
+ 1868  vim templates/web/index.html 
+ 1869  appcfg.py -A penguinupdev1 update . 
+ 1870  vim locale/no/LC_MESSAGES/django.po 
+ 1871  vim templates/web/index.html 
+ 1872  appcfg.py -A penguinupdev1 update . 
+ 1873  git status
+ 1874  git add templates/web/index.html 
+ 1875  git commit -m "index.html: Redesign of home page text"
+ 1876  git status
+ 1877  git pull origin dev
+ 1878  git status
+ 1879  git log
+ 1880  git log templates/web/index.html
+ 1881  appcfg.py -A penguinupdev1 update . 
+ 1882  vim templates/web/index.html 
+ 1883  appcfg.py -A penguinupdev1 update . 
+ 1884  git status
+ 1885  git diff templates/web/index.html
+ 1886  git add templates/web/index.html 
+ 1887  git commit -m "index.html: Updated popular routes for Kristiansand"
+ 1888  git status
+ 1889  git pull origin dev
+ 1890  appcfg.py -A penguinupdev1 update . 
+ 1891  git status
+ 1892  git push origin dev
+ 1893  vim templates/registration/password_reset_form.html 
+ 1894  vim templates/registration/password_reset_done.html 
+ 1895  vim templates/web/register.html 
+ 1896  vim templates/web/index.html 
+ 1897  git log
+ 1898  git status
+ 1899  history
+ 1900  history | grep -irn "git "
+ 1901  history | grep  "git "
+ 1902  git status
+ 1903  vim PengvinBackEnd/settings.py
+ 1904  python manage.py makemessages -a -i lib -i httplib2
+ 1905  vim locale/no/LC_MESSAGES/django.po 
+ 1906  vim templates/web/login.html 
+ 1907  git status
+ 1908  vim templates/web/login.html 
+ 1909  python manage.py makemessages -a -i lib -i httplib2
+ 1910  vim locale/no/LC_MESSAGES/django.po 
+ 1911  vim templates/registration/password_reset_form.html 
+ 1912  python manage.py makemessages -a -i lib -i httplib2
+ 1913  vim locale/no/LC_MESSAGES/django.po 
+ 1914  python manage.py compilemessages
+ 1915  git status
+ 1916  vim PengvinBackEnd/settings.py
+ 1917  git status
+ 1918  git add templates/web/login.html templates/registration/password_reset_done.html templates/registration/password_reset_form.html 
+ 1919  git status
+ 1920  git add locale/en/LC_MESSAGES/django.* 
+ 1921  git add locale/no/LC_MESSAGES/django.* 
+ 1922  git status
+ 1923  git commit -m "login.html, password_reset_form/done.html: fixed language changes"
+ 1924  git status
+ 1925  git pull origin dev
+ 1926  appcfg.py -A penguinupdev1 update . 
+ 1927  git push origin dev
+ 1928  vim templates/web/index.html 
+ 1929  git status
+ 1930  git diff templates/web/index.html
+ 1931  vim templates/web/index.html 
+ 1932  git statsu
+ 1933  git status
+ 1934  git add templates/web/index.html 
+ 1935  git commit -m "index.html - changed text design my rides"
+ 1936  git pull origin dev
+ 1937  appcfg.py -A penguinupdev1 update . 
+ 1938  vim templates/web/index.html 
+ 1939  git status
+ 1940  git add templates/web/index.html 
+ 1941  git commit -m "index.html - small changed in text design my rides"
+ 1942  appcfg.py -A penguinupdev1 update . 
+ 1943  git status
+ 1944  git pull origin dev
+ 1945  git push origin dev
+ 1946  vim templates/web/update_profile.html 
+ 1947  vim PengvinBackEnd/settings.py
+ 1948  vim locale/no/LC_MESSAGES/django.po 
+ 1949  vim templates/web/update_profile.html 
+ 1950  vim locale/no/LC_MESSAGES/django.po 
+ 1951  vim Pengvin/views.py
+ 1952  vim templates/web/update_profile.html 
+ 1953  vim PengvinBackEnd/settings.py
+ 1954  vim locale/no/LC_MESSAGES/django.po 
+ 1955  python manage.py makemessages -a -i lib -i httplib2
+ 1956  vim locale/no/LC_MESSAGES/django.po 
+ 1957  vim templates/web/update_profile.html 
+ 1958  python manage.py makemessages -a -i lib -i httplib2
+ 1959  vim locale/no/LC_MESSAGES/django.po 
+ 1960  python manage.py compilemessages
+ 1961  git status
+ 1962  git diff templates/web/update_profile.html
+ 1963  git status
+ 1964  git add templates/web/update_profile.html 
+ 1965  vim PengvinBackEnd/settings.py
+ 1966  git status
+ 1967  git add locale/no/LC_MESSAGES/django.* 
+ 1968  git add locale/en/LC_MESSAGES/django.* 
+ 1969  git status
+ 1970  git commit -m "update_profile.html: English text and Norsk Translation updates"
+ 1971  git status
+ 1972  appcfg.py -A penguinupdev1 update . 
+ 1973  git status
+ 1974  git pull origin dev
+ 1975  git push origin dev
+ 1976  vim locale/no/LC_MESSAGES/django.po 
+ 1977  vim templates/web/new_route.html 
+ 1978  git status
+ 1979  exit
+ 1980  vim Pengvin/urls.py
+ 1981  vim PengvinBackEnd/urls.py
+ 1982  vim Pengvin/urls.py
+ 1983  vim Pengvin/views.py
+ 1984  appcfg.py -A penguinupdev1 update . 
+ 1985  vim templates/web/js/validateCar.js 
+ 1986  mysql -u root -p
+ 1987  mysql -h 173.194.236.16 -u test -p
+ 1988  vim templates/web/update_profile.html 
+ 1989  vim ../PenguinGAE-app-28-07-2018/Pengvin/urls.py
+ 1990  vim ../PenguinGAE-app-28-07-2018/PengvinAPI/urls.py
+ 1991  vim ../PenguinGAE-app-28-07-2018/PengvinAPI/views
+ 1992  vim ../PenguinGAE-app-28-07-2018/PengvinAPI/views.py
+ 1993  vim Pengvin/models.py
+ 1994  vim ../PenguinGAE-app-28-07-2018/PengvinAPI/views.py
+ 1995  vim Pengvin/views.py
+ 1996  appcfg.py -A penguinupdev1 update . 
+ 1997  git status
+ 1998  git push origin dev
+ 1999  exit
+ 2000  source example/bin/activate
+ 2001  ls
+ 2002  pip install djang==1.8.0
+ 2003  pip install djang==1.8
+ 2004  pip install django==1.8.0
+ 2005  ls
+ 2006  which django-admin.py 
+ 2007  django-admin.py startproject gdg_example1
+ 2008  ls
+ 2009  cd gdg_example1/
+ 2010  ls
+ 2011  django-admin.py startapp app1
+ 2012  ls
+ 2013  ls app1/
+ 2014  vim gdg_example1/settings.py 
+ 2015  ls
+ 2016  vim gdg_example1/urls.py 
+ 2017  python manage.py runserver
+ 2018  vim gdg_example1/urls.py
+ 2019  vim app1/urls.py
+ 2020  vim app1/views.py 
+ 2021  vim app1/urls.py 
+ 2022  vim gdg_example1/urls.py
+ 2023  python manage.py runserver
+ 2024  vim app1/views.py 
+ 2025  ls ~/
+ 2026  ls ~/student-projects/
+ 2027  ls ~/student-projects/uia
+ 2028  ls ~/student-projects/uia-2018/
+ 2029  ls ~/student-projects/uia-2018/mysite/
+ 2030  vim ~/student-projects/uia-2018/mysite/urls.py
+ 2031  vim ~/student-projects/uia-2018/search/urls.py 
+ 2032  vim app1/views.py
+ 2033  python manage.py runserver
+ 2034  vim app1/views.py
+ 2035  python manage.py runserver
+ 2036  vim app1/urls.py
+ 2037  ls
+ 2038  vim gdg_example1/urls.py
+ 2039  vim app.yaml
+ 2040  ls
+ 2041  ls ~/PenguinUpWebDev/PenguinGAE/PenguinGAE-dev-11-8-2018/
+ 2042  ls ~/PenguinUpWebDev/PenguinGAE/PenguinGAE-dev-11-8-2018/lib/
+ 2043  appcfg.py update .
+ 2044  vim gdg_example1/settings.py
+ 2045  vim app.yaml 
+ 2046  vim ~/PenguinUpWebDev/PenguinGAE/PenguinGAE-dev-11-8-2018/appengine_config.py
+ 2047  vim appengine_config.py
+ 2048  mkdir lib
+ 2049  cp -R ../example/lib/python2.7/site-packages/django/ lib/
+ 2050  appcfg.py update .
+ 2051  vim gdg_example1/settings.py
+ 2052  appcfg.py update .
+ 2053  vim appengine_config.py 
+ 2054  ls
+ 2055  cd ..
+ 2056  ls
+ 2057  cp -R gdg_example1/ gdg_example2
+ 2058  mv gdg_example2/ gdg_example_ms
+ 2059  cd gdg_example_ms/
+ 2060  vim ~/PenguinUpWebDev/PenguinGAE/PenguinGAE-app-28-07-2018/requirements.txt 
+ 2061  vim ~/PenguinUpWebDev/PenguinGAE/PenguinGAE-app-28-07-2018/PengvinBackEnd/settings.py
+ 2062  ls
+ 2063  vim app.yaml 
+ 2064  vim ~/PenguinUpWebDev/PenguinGAE/PenguinGAE-dev-11-8-2018/app.yaml 
+ 2065  vim app.yaml 
+ 2066  vim gdg_example1/settings.py
+ 2067  pip install djangorestframework==3.7.1
+ 2068  vim ~/PenguinUpWebDev/PenguinGAE/PenguinGAE-app-28-07-2018/PengvinBackEnd/settings.py
+ 2069  mv app1/ api
+ 2070  ls ap
+ 2071  ls api/
+ 2072  vim gdg_example1/urls.py
+ 2073  vim api/views.py
+ 2074  cd api
+ 2075  mv views.py original_views.py
+ 2076  vim views.py
+ 2077  gedit views.py & 
+ 2078  vim views.py
+ 2079  mv urls.py original_urls.py
+ 2080  gedit urls.py & 
+ 2081  vim urls.py
+ 2082  vim views.py
+ 2083  vim urls.py
+ 2084  cd ..
+ 2085  ls
+ 2086  appcfg.py update .
+ 2087  ls
+ 2088  vim app.yaml 
+ 2089  ls
+ 2090  rm db.sqlite3 
+ 2091  vim app.yaml 
+ 2092  vim gdg_example1/settings.py
+ 2093  vim gdg_example1/urls.py
+ 2094  appcfg.py update .
+ 2095  vim app.yaml 
+ 2096  appcfg.py update .
+ 2097  vim api/urls.py
+ 2098  ls ~/PenguinUpWebDev/PenguinGAE/PenguinGAE-dev-11-8-2018/lib/
+ 2099  cp ../example/lib/python2.7/site-packages/rest_framework/ lib/
+ 2100  cp -R ../example/lib/python2.7/site-packages/rest_framework/ lib/
+ 2101  ls lib/
+ 2102  appcfg.py update .
+ 2103  vim api/views.py
+ 2104  vim api/urls.py
+ 2105  vim api/views.py
+ 2106  appcfg.py update .
+ 2107  vim api/views.py
+ 2108  vim api/urls.py
+ 2109  vim api/views.py
+ 2110  vim api/urls.py
+ 2111  appcfg.py update .
+ 2112  vim api/urls.py
+ 2113  vim api/views.py
+ 2114  ls ..
+ 2115  pip freeze > ../requirements.txt
+ 2116  vim ../requirements.txt 
+ 2117  history > history
